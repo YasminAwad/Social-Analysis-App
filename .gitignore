@@ -1,1 +1,11 @@
 .venv
+.env
+app.log
+notes.md
+/app/utils/__pycache__
+/app/ui/__pycache__
+/app/ui/components/__pycache__
+/app/services/__pycache__
+/app/__pycache__
+/app/data
+/app/files
