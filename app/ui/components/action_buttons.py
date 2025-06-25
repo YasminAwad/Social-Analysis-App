@@ -2,7 +2,7 @@ import streamlit as st
 import os
 from yt_dlp.utils import DownloadError
 
-from services.data_fetcher import fetch_social_media_data
+from analytics.data_fetcher import fetch_social_media_data
 from utils.session import is_cookie_uploaded, reset_data_states
 from utils.utilities import fetch_graphrag
 from ui.components.input_form import FormData

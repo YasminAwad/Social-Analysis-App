@@ -9,7 +9,7 @@ import os
 import re
 
 from utils.utilities import delete_files, ensure_folder_exists
-from services.transcript import transcription_function 
+from analytics.transcript import transcription_function 
 
 # LOGGING
 logging.basicConfig(
@@ -142,7 +142,7 @@ def video_search(API_KEY, SEARCH_URL, topic, specific_words, published_after, pu
         "part": "snippet",
         "q": query,
         "type": "video",
-        "maxResults": 1,  
+        "maxResults": 10,  
         "order": "date",
         "videoDuration": "short",
         "publishedAfter": published_after,

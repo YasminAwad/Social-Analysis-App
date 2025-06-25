@@ -5,7 +5,7 @@ import logging
 from pathlib import Path
 from dotenv import load_dotenv
 from yt_dlp.utils import DownloadError
-from services.transcript import transcription_function
+from analytics.transcript import transcription_function
 import subprocess
 from TikTokApi import TikTokApi
 import asyncio

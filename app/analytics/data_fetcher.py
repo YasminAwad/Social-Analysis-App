@@ -5,9 +5,9 @@ from typing import List, Dict, Any, Optional
 from yt_dlp.utils import DownloadError
 
 from utils.utilities import load_json_data, update_json_files
-from services.analysis import generate_chatgpt_question, send_to_chatgpt
-from services.youtube import fetch_youtube_data
-from services.tiktok import fetch_tiktok_data
+from analytics.analysis import generate_chatgpt_question, send_to_chatgpt
+from analytics.youtube import fetch_youtube_data
+from analytics.tiktok import fetch_tiktok_data
 
 def fetch_social_media_data(
     topic: str,
